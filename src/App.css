@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background: rgb(32, 99, 107);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link-name{
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.link-name:hover{
+    cursor: pointer;
+    color: rgb(178, 220, 255);
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* Extra Background Colors */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grass {
+    background-color: #3fa129;
+}
+.fire {
+    background-color: #e62829;
+}
+.water {
+    background-color: #2980ef;
+}
+.electric {
+    background-color: #fac000;
+}
+.ice {
+    background-color: #3fd8ff;
+}
+.fighting {
+    background-color: #ff8000;
+}
+.poison {
+    background-color: #9141cb;
+}
+.ground {
+    background-color: #915121;
+}
+.flying {
+    background-color: #81b9ef;
+}
+.psychic {
+    background-color: #ef4179;
+}
+.ghost {
+    background-color: #704170;
+}
+.bug {
+    background-color: #91a119;
+}
+.rock {
+    background-color: #afa981;
+}
+.dragon {
+    background-color: #5060e1;
+}
+.normal {
+    background-color: #9fa19f;
+}
+.fairy {
+    background-color: #ef70ef;
+}
+.dark {
+    background-color: #50413f;
+}
+.steel {
+    background-color: #60a1b8;
 }
